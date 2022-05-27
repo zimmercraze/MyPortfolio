@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+
+html{
+
+	scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body{
+
+	font-family: 'Oswald', sans-serif !important;
+	font-family: 'Roboto Condensed', sans-serif !important;
+	font-family: 'Roboto Slab', serif !important;
+
+}
+
+.menu{
+
+	position: fixed !important;
+	top: 0;
+	width: 100%;
+	background-color: #fff;
+	z-index: 1000;
+	box-shadow:0px 0px 15px 0px rgba(120, 120, 120, 0.1);
+
+}
+
+.first_section{
+
+	margin-top: 20rem;
+
+}
+
+.second_section{
+
+	margin-top: 15rem;
+	background-color: #f5f8f9;
+
+}
+
+.first_section small{
+
+	letter-spacing: 3px;
+	line-height: 30px;
+	color: #95868c;
+
+}
+
+.loading-button.red{
+
+  background: #790349;
+  box-shadow:0px 5px 0px 0px #a93f55,0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+
+}
+
+.loading-button.red:active{
+
+  box-shadow: 0px 3px 0px 0px #a93f55;
+
+}
+
+.second_section p{
+
+	letter-spacing: 3px;
+	line-height: 30px;
+	color: #95868c;
+
+}
+
+.third_section img{
+
+	box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+	border-radius: 10px;
+	cursor: pointer;
+
+}
+
+.third_section img:hover{
+
+	box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 10px 1px rgba(60,64,67,0.149);
+
+}
+
+.blog{
+
+	background-image: url(../images/blogbg.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+
+}
+
+.blog small{
+
+	letter-spacing: 3px;
+
+}
+
+.contact input{
+	height: 3rem;
+}
+
+.footer{
+	background-color: #f5f8f9;
+}
+
+.class_schedule{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	text-align: center;
+}
+
+.table {
+    background-color: #FFFFE0;
+    border-collapse: collapse;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 3rem;
+}
+
+.table th {
+    background-color: #32174d;
+}
+
+.table td {
+	margin-bottom: 3rem;
+    background-color: #232023;
+    border-bottom: 1px dotted #e27434;
+    border-color: #000b2e;
+}
+@media screen and (max-width: 991px){
+	.image{
+		margin-left: unset !important;
+		margin: auto !important;
+	}
+}
